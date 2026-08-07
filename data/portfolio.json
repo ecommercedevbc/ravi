@@ -1,0 +1,139 @@
+{
+  "personal": {
+    "name": "Ravishankar M",
+    "role": "Senior Full Stack & eCommerce Developer",
+    "tagline": "Senior Software Engineer Level 3 | Shopify Plus, BigCommerce, Zoho Commerce Specialist",
+    "phone": "+91 99657 70031",
+    "email": "ecommerce.devbc@gmail.com"
+  },
+  "heroStats": [
+    { "value": "4+", "label": "Years of Experience" },
+    { "value": "500+", "label": "Orders/Month Automated" },
+    { "value": "100+", "label": "Pages Migrated" },
+    { "value": "70%", "label": "Manual Work Reduced" }
+  ],
+  "summary": "Senior Full Stack & eCommerce Developer with 4+ years of experience designing and delivering high-performance B2B and B2C commerce solutions using Shopify Plus, BigCommerce, Zoho Commerce, React.js, and Next.js. Specialized in building scalable storefront architectures, advanced customizations, and enterprise-grade integrations for global eCommerce brands. Strong expertise in Shopify Liquid, BigCommerce Stencil, GraphQL, REST APIs, Checkout Extensions, Shopify Flow, and Deluge scripting, with hands-on experience in platform migrations, headless commerce implementations, ERP integrations, and performance optimization. Proven ability to develop custom storefront experiences, automate business workflows, and implement scalable wholesale and dealer management systems integrated with Zoho Inventory, Zoho Books, and third-party platforms. Experienced in leading end-to-end development lifecycle activities including architecture planning, frontend engineering, backend integrations, SEO optimization, API orchestration, and post-launch support in fast-paced client delivery environments.",
+  "experience": [
+    {
+      "title": "Senior Software Engineer – Level 3",
+      "company": "Vinsinfo Pvt Ltd",
+      "location": "Chennai",
+      "duration": "Apr 2026 – Present",
+      "bullets": [
+        "Built a Zoho Commerce wholesale storefront with guest-redirect access control, public Terms & Registration pages, and custom registration flow with admin approval triggering auto-account provisioning via Deluge scripting, reducing onboarding time by 50%",
+        "Engineered real-time Shopify → Zoho Inventory & Books order sync pipeline processing 500+ orders/month; streamlined GST invoice generation and payment reconciliation using third-party payment APIs, Shopify API, and Zoho APIs"
+      ]
+    },
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "Vinsinfo Pvt Ltd",
+      "location": "Chennai",
+      "duration": "Jul 2025 – Apr 2026",
+      "bullets": [
+        "Led Magento → BigCommerce migration for a US Christmas decorations brand, delivering 100+ pages within a 3-month timeline; built custom homepage widgets, PDP split layouts, ZIP image downloads, and video gallery integration. Designed and implemented B2B app storefront features using React. Enhanced B2B functionalities including quick order, bulk order, reorder, and shopping lists",
+        "Delivered Shopify Plus global kids clothing store across 3+ regions: VIP customer workflows (Shopify Flow), checkout extensions with add-on product display and delivery date scheduling, and location-based shipping on PDP"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Vinsinfo Pvt Ltd",
+      "location": "Chennai",
+      "duration": "Jul 2023 – Jul 2025",
+      "bullets": [
+        "Built 4 unique PDP templates with warranty widgets, compare-product features, and bulk/quick order via Excel upload, reducing manual order processing time by 70% for an India home appliances BigCommerce platform",
+        "Managed B2C & B2B storefronts for a music products brand across 2 separate frontends: bulk Excel ordering, out-of-stock notifications, product contact forms, and Google Maps API dealer locator for 100+ dealers",
+        "Developed an Excel-driven product catalogue sync admin tool with AWS-backed file processing, handling 1,000+ SKUs with instant success/error email reports"
+      ]
+    },
+    {
+      "title": "Associate Software Developer",
+      "company": "Vinsinfo Pvt Ltd",
+      "location": "Chennai",
+      "duration": "Jun 2022 – Jul 2023",
+      "bullets": [
+        "Built a hardware auction platform serving 50+ B2B clients, with role-based access control and scheduled SMTP email alerts reducing manual notification effort by 80%",
+        "Developed a sales rep management app tracking 20+ reps with order tracking, budget summary, and Excel-based report export/import, cutting reporting time by 60%"
+      ]
+    }
+  ],
+  "featuredProject": {
+    "title": "Magento → BigCommerce Migration",
+    "subtitle": "Christmas Decorations USA",
+    "year": "2025",
+    "bullets": [
+      "Owned full platform migration from Magento to BigCommerce, delivering within a tight 3-month deadline for a US eCommerce client",
+      "Rebuilt storefront from scratch: custom homepage widgets, PDP split layouts, case quantity logic, ZIP image download, and video gallery integration",
+      "Customised category navigation menus and ensured performance-optimised rendering across the new platform"
+    ],
+    "stats": [
+      { "value": "100+", "label": "Pages Delivered" },
+      { "value": "3 mo", "label": "Delivery Timeline" }
+    ],
+    "tech": ["BigCommerce Stencil", "React.js", "JavaScript", "SCSS"]
+  },
+  "projectHighlights": [
+    "Zoho Commerce wholesale storefront with Deluge-based auto-provisioning",
+    "Shopify → Zoho Inventory/Books real-time order sync (500+ orders/mo)",
+    "Shopify Plus VIP customer workflows via Shopify Flow",
+    "Checkout Extensions: add-on product display, delivery date scheduling",
+    "BigCommerce advanced filtering & sorting via Stencil + APIs",
+    "BigCommerce B2B customization: shoplist on PLP, quote restrictions for guest customers, hidden pricing for guests",
+    "Handling 250+ variants per product on BigCommerce",
+    "BigCommerce GraphQL query development + GraphQL Explorer expertise",
+    "Bulk order functionality (BigCommerce)",
+    "Google Analytics (GA4) + Google Ads integration on BigCommerce",
+    "Google Merchant Center product feed integration",
+    "Multi-currency support configuration (BigCommerce)",
+    "PLP infinite scroll product listing",
+    "Multiple variant image display on PDP (color-based image sets)",
+    "Category image previews in navigation menu"
+  ],
+  "skillGroups": [
+    { "title": "Platforms", "skills": ["Shopify", "Shopify Plus", "BigCommerce", "Zoho Commerce"] },
+    {
+      "title": "Frontend",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "jQuery",
+        "HTML5",
+        "CSS3",
+        "SCSS",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Backend & APIs",
+      "skills": ["PHP", "Node.js", "SQL", "GraphQL", "REST APIs", "Storefront APIs", "Deluge Script"]
+    },
+    {
+      "title": "eCommerce Frameworks",
+      "skills": ["BigCommerce Stencil", "Shopify Liquid", "Shopify Flow", "Shopify Checkout Extensions"]
+    },
+    {
+      "title": "Integrations",
+      "skills": ["Zoho Inventory", "Zoho Books", "AWS", "Shopify API", "Third-party Payment APIs"]
+    },
+    { "title": "Tools", "skills": ["Git", "AWS CodeCommit", "BrowserStack", "JIRA", "Asana"] },
+    { "title": "RDBMS", "skills": ["MySQL"] },
+    { "title": "Operating Systems", "skills": ["Linux (Ubuntu)", "Mac OS", "Windows"] },
+    { "title": "IDEs", "skills": ["Visual Studio Code", "Notepad++", "Edit Plus"] },
+    { "title": "Debugging Tools", "skills": ["Firebug", "Chrome Developer Tools", "BrowserStack"] },
+    { "title": "Training", "skills": ["Catalyst", "Next.js"] }
+  ],
+  "education": {
+    "degree": "Bachelor of Engineering (B.E) — Computer Science and Engineering (CSE)",
+    "institution": "Bannari Amman Institute of Technology",
+    "location": "Erode, Tamil Nadu, India"
+  },
+  "navLinks": [
+    { "href": "#summary", "label": "About" },
+    { "href": "#experience", "label": "Experience" },
+    { "href": "#project", "label": "Case Study" },
+    { "href": "#skills", "label": "Skills" },
+    { "href": "#contact", "label": "Contact" }
+  ]
+}
