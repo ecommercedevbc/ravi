@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ravishankar M — Senior Full Stack & eCommerce Developer",
+  title: "Ravishankar M — Freelance Full Stack & eCommerce Developer",
   description:
-    "Senior Full Stack & eCommerce Developer specializing in Shopify Plus, BigCommerce, and Zoho Commerce — building scalable storefronts, migrations, and enterprise integrations.",
+    "Freelance Full Stack & eCommerce Developer specializing in Shopify Plus, BigCommerce, and Zoho Commerce — available for project-based, hourly, and retainer engagements.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

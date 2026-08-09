@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Summary from "@/components/Summary";
+import Services from "@/components/Services";
 import Experience from "@/components/Experience";
-import FeaturedProject from "@/components/FeaturedProject";
 import ProjectHighlights from "@/components/ProjectHighlights";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
@@ -16,8 +16,8 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Summary />
+        <Services />
         <Experience />
-        <FeaturedProject />
         <ProjectHighlights />
         <Skills />
         <Education />

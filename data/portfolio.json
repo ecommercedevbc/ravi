@@ -1,24 +1,47 @@
 {
   "personal": {
     "name": "Ravishankar M",
-    "role": "Senior Full Stack & eCommerce Developer",
-    "tagline": "Senior Software Engineer Level 3 | Shopify Plus, BigCommerce, Zoho Commerce Specialist",
+    "role": "Freelance Full Stack & eCommerce Developer",
+    "tagline": "Freelance Developer | Shopify, BigCommerce, Zoho Commerce Specialist",
+    "availability": "Available for part-time freelance & contract projects",
     "phone": "+91 99657 70031",
     "email": "ecommerce.devbc@gmail.com"
   },
   "heroStats": [
-    { "value": "4+", "label": "Years of Experience" },
-    { "value": "500+", "label": "Orders/Month Automated" },
-    { "value": "100+", "label": "Pages Migrated" },
-    { "value": "70%", "label": "Manual Work Reduced" }
+    {
+      "value": "4+",
+      "label": "Years of Experience"
+    },
+    {
+      "value": "500+",
+      "label": "Orders/Month Automated"
+    },
+    {
+      "value": "100+",
+      "label": "Pages Migrated"
+    },
+    {
+      "value": "70%",
+      "label": "Manual Work Reduced"
+    }
   ],
-  "summary": "Senior Full Stack & eCommerce Developer with 4+ years of experience designing and delivering high-performance B2B and B2C commerce solutions using Shopify Plus, BigCommerce, Zoho Commerce, React.js, and Next.js. Specialized in building scalable storefront architectures, advanced customizations, and enterprise-grade integrations for global eCommerce brands. Strong expertise in Shopify Liquid, BigCommerce Stencil, GraphQL, REST APIs, Checkout Extensions, Shopify Flow, and Deluge scripting, with hands-on experience in platform migrations, headless commerce implementations, ERP integrations, and performance optimization. Proven ability to develop custom storefront experiences, automate business workflows, and implement scalable wholesale and dealer management systems integrated with Zoho Inventory, Zoho Books, and third-party platforms. Experienced in leading end-to-end development lifecycle activities including architecture planning, frontend engineering, backend integrations, SEO optimization, API orchestration, and post-launch support in fast-paced client delivery environments.",
+  "summary": "Freelance Full Stack & eCommerce Developer with 4+ years of experience designing and delivering high-performance B2B and B2C commerce solutions using Shopify Plus, BigCommerce, Zoho Commerce, React.js, and Next.js. Specialized in building scalable storefront architectures, advanced customizations, and enterprise-grade integrations for global eCommerce brands. Strong expertise in Shopify Liquid, BigCommerce Stencil, GraphQL, REST APIs, Checkout Extensions, Shopify Flow, and Deluge scripting, with hands-on experience in platform migrations, headless commerce implementations, ERP integrations, and performance optimization. Proven ability to develop custom storefront experiences, automate business workflows, and implement scalable wholesale and dealer management systems integrated with Zoho Inventory, Zoho Books, and third-party platforms. Experienced in leading end-to-end development lifecycle activities including architecture planning, frontend engineering, backend integrations, SEO optimization, API orchestration, and post-launch support in fast-paced client delivery environments.",
   "experience": [
     {
+      "title": "Freelance Full Stack & eCommerce Developer",
+      "location": "Remote",
+      "duration": "Aug 2026 – Present",
+      "badge": "Part-time · Current",
+      "bullets": [
+        "Partnering with eCommerce brands on Shopify Plus, BigCommerce, and Zoho Commerce projects — storefront builds, platform migrations, and custom integrations",
+        "Taking on part-time project-based engagements, retainer support, and technical consulting alongside full-time work"
+      ]
+    },
+    {
       "title": "Senior Software Engineer – Level 3",
-      "company": "Vinsinfo Pvt Ltd",
       "location": "Chennai",
       "duration": "Apr 2026 – Present",
+      "badge": "Full-time",
       "bullets": [
         "Built a Zoho Commerce wholesale storefront with guest-redirect access control, public Terms & Registration pages, and custom registration flow with admin approval triggering auto-account provisioning via Deluge scripting, reducing onboarding time by 50%",
         "Engineered real-time Shopify → Zoho Inventory & Books order sync pipeline processing 500+ orders/month; streamlined GST invoice generation and payment reconciliation using third-party payment APIs, Shopify API, and Zoho APIs"
@@ -26,7 +49,6 @@
     },
     {
       "title": "Senior Full Stack Developer",
-      "company": "Vinsinfo Pvt Ltd",
       "location": "Chennai",
       "duration": "Jul 2025 – Apr 2026",
       "bullets": [
@@ -36,7 +58,6 @@
     },
     {
       "title": "Software Developer",
-      "company": "Vinsinfo Pvt Ltd",
       "location": "Chennai",
       "duration": "Jul 2023 – Jul 2025",
       "bullets": [
@@ -47,7 +68,6 @@
     },
     {
       "title": "Associate Software Developer",
-      "company": "Vinsinfo Pvt Ltd",
       "location": "Chennai",
       "duration": "Jun 2022 – Jul 2023",
       "bullets": [
@@ -56,20 +76,36 @@
       ]
     }
   ],
-  "featuredProject": {
-    "title": "Magento → BigCommerce Migration",
-    "subtitle": "Christmas Decorations USA",
-    "year": "2025",
-    "bullets": [
-      "Owned full platform migration from Magento to BigCommerce, delivering within a tight 3-month deadline for a US eCommerce client",
-      "Rebuilt storefront from scratch: custom homepage widgets, PDP split layouts, case quantity logic, ZIP image download, and video gallery integration",
-      "Customised category navigation menus and ensured performance-optimised rendering across the new platform"
+  "services": [
+    {
+      "title": "Shopify Plus Development",
+      "description": "Custom storefronts, checkout extensions, Shopify Flow automation, and VIP customer workflows."
+    },
+    {
+      "title": "BigCommerce Migration & Build",
+      "description": "Platform migrations (e.g. Magento → BigCommerce), Stencil theme development, and B2B storefront customization."
+    },
+    {
+      "title": "Zoho Commerce & Automation",
+      "description": "Wholesale storefronts, Deluge scripting, and workflow automation integrated with Zoho Inventory & Books."
+    },
+    {
+      "title": "Systems Integration",
+      "description": "REST & GraphQL API integrations connecting storefronts to ERPs, payment gateways, and third-party platforms."
+    },
+    {
+      "title": "Performance & SEO",
+      "description": "Storefront performance optimization, GA4 / Google Ads setup, and technical SEO for eCommerce sites."
+    }
+  ],
+  "engagement": {
+    "availability": "Available for part-time freelance & contract projects",
+    "modes": [
+      "Project-based",
+      "Hourly consulting",
+      "Monthly retainer"
     ],
-    "stats": [
-      { "value": "100+", "label": "Pages Delivered" },
-      { "value": "3 mo", "label": "Delivery Timeline" }
-    ],
-    "tech": ["BigCommerce Stencil", "React.js", "JavaScript", "SCSS"]
+    "note": "Rates depend on project scope — get in touch to discuss your requirements."
   },
   "projectHighlights": [
     "Zoho Commerce wholesale storefront with Deluge-based auto-provisioning",
@@ -89,7 +125,14 @@
     "Category image previews in navigation menu"
   ],
   "skillGroups": [
-    { "title": "Platforms", "skills": ["Shopify", "Shopify Plus", "BigCommerce", "Zoho Commerce"] },
+    {
+      "title": "Platforms",
+      "skills": [
+        "BigCommerce",
+        "Shopify",
+        "Zoho Commerce"
+      ]
+    },
     {
       "title": "Frontend",
       "skills": [
@@ -107,22 +150,77 @@
     },
     {
       "title": "Backend & APIs",
-      "skills": ["PHP", "Node.js", "SQL", "GraphQL", "REST APIs", "Storefront APIs", "Deluge Script"]
+      "skills": [
+        "PHP",
+        "Node.js",
+        "SQL",
+        "GraphQL",
+        "REST APIs",
+        "Storefront APIs",
+        "Deluge Script"
+      ]
     },
     {
       "title": "eCommerce Frameworks",
-      "skills": ["BigCommerce Stencil", "Shopify Liquid", "Shopify Flow", "Shopify Checkout Extensions"]
+      "skills": [
+        "BigCommerce Stencil",
+        "Shopify Liquid",
+        "Shopify Flow",
+        "Shopify Checkout Extensions",
+        "BigCommerce catalzyst"
+      ]
     },
     {
       "title": "Integrations",
-      "skills": ["Zoho Inventory", "Zoho Books", "AWS", "Shopify API", "Third-party Payment APIs"]
+      "skills": [
+        "Zoho Inventory",
+        "Zoho Books",
+        "AWS",
+        "Shopify API",
+        "Third-party Payment APIs",
+        "Build custom integrations Apps"
+      ]
     },
-    { "title": "Tools", "skills": ["Git", "AWS CodeCommit", "BrowserStack", "JIRA", "Asana"] },
-    { "title": "RDBMS", "skills": ["MySQL"] },
-    { "title": "Operating Systems", "skills": ["Linux (Ubuntu)", "Mac OS", "Windows"] },
-    { "title": "IDEs", "skills": ["Visual Studio Code", "Notepad++", "Edit Plus"] },
-    { "title": "Debugging Tools", "skills": ["Firebug", "Chrome Developer Tools", "BrowserStack"] },
-    { "title": "Training", "skills": ["Catalyst", "Next.js"] }
+    {
+      "title": "Tools",
+      "skills": [
+        "Git",
+        "AWS CodeCommit",
+        "BrowserStack",
+        "JIRA",
+        "Asana"
+      ]
+    },
+    {
+      "title": "RDBMS",
+      "skills": [
+        "MySQL",
+        "Postgresql"
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "skills": [
+        "Linux (Ubuntu)",
+        "Mac OS",
+        "Windows"
+      ]
+    },
+    {
+      "title": "IDEs",
+      "skills": [
+        "Visual Studio Code",
+        "Notepad++",
+        "Edit Plus"
+      ]
+    },
+    {
+      "title": "Debugging Tools",
+      "skills": [
+        "Chrome Developer Tools",
+        "BrowserStack"
+      ]
+    }
   ],
   "education": {
     "degree": "Bachelor of Engineering (B.E) — Computer Science and Engineering (CSE)",
@@ -130,10 +228,25 @@
     "location": "Erode, Tamil Nadu, India"
   },
   "navLinks": [
-    { "href": "#summary", "label": "About" },
-    { "href": "#experience", "label": "Experience" },
-    { "href": "#project", "label": "Case Study" },
-    { "href": "#skills", "label": "Skills" },
-    { "href": "#contact", "label": "Contact" }
+    {
+      "href": "#summary",
+      "label": "About"
+    },
+    {
+      "href": "#services",
+      "label": "Services"
+    },
+    {
+      "href": "#experience",
+      "label": "Experience"
+    },
+    {
+      "href": "#skills",
+      "label": "Skills"
+    },
+    {
+      "href": "#contact",
+      "label": "Contact"
+    }
   ]
 }

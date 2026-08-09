@@ -40,3 +40,71 @@ body {
   background: var(--accent);
   color: #05070a;
 }
+
+/* Faint grid backdrop used behind the hero / CTA panels */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 40%, transparent 100%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 40%, transparent 100%);
+}
+
+/* Lift + glow on hover for cards */
+.card-hover {
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 20px 45px -24px rgba(52, 211, 153, 0.35);
+}
+
+/* No-JS-required entrance animation for above-the-fold hero content */
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-fade {
+  opacity: 0;
+  animation: hero-fade-up 0.7s ease-out forwards;
+}
+.hero-fade-1 {
+  animation-delay: 0.05s;
+}
+.hero-fade-2 {
+  animation-delay: 0.15s;
+}
+.hero-fade-3 {
+  animation-delay: 0.25s;
+}
+.hero-fade-4 {
+  animation-delay: 0.35s;
+}
+.hero-fade-5 {
+  animation-delay: 0.45s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--foreground) 20%, var(--accent) 60%, var(--accent-2) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
